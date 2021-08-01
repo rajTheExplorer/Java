@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class kiara
+public class Main
 {
     public static void poundsToKilos()
     {
