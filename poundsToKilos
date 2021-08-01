@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class kiara
+{
+    public static void poundsToKilos()
+    {
+        double kilos;
+        double pounds;
+        Scanner scan=new Scanner(System.in);
+        pounds=scan.nextDouble();
+        kilos=pounds*0.453592;
+        System.out.println(kilos);
+    }
+    public static void main(String[] args)
+    {
+        poundsToKilos();
+        poundsToKilos();
+    }
+
+}
