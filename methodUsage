@@ -1,0 +1,11 @@
+class main
+{
+    public static void displayHighScorePosition(String playerName,int position)
+    {
+        System.out.println(playerName+" managed to get into position "+position+" on the high score table");
+    }
+    public static void main(String[] args)
+    {
+        displayHighScorePosition("Raj",3);
+    }
+}
