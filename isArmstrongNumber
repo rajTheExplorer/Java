@@ -1,0 +1,28 @@
+class kiara
+{
+    public static void isArmstrong(int num)
+    {
+        int rem,sum=0,temp;
+        temp=num;
+        while(num>0)
+        {
+            rem=num%10;
+            sum=sum+rem*rem*rem;
+            num=num/10;
+        }
+        num=temp;
+        if(num==sum)
+        {
+            System.out.println("it is an armstrong number");
+        }
+        else
+        {
+            System.out.println("it is not an armstrong number");
+        }
+
+    }
+
+    public static void main(String[] args) {
+        isArmstrong(373);
+    }
+}
