@@ -2,14 +2,14 @@ class Main
 {
     public static void swappingOf2Numbers(int num1,int num2)
     {
-        System.out.println("value of num1 before swapping"+num1);
-        System.out.println("value of num2 before swapping"+num2);
+        System.out.println("value of num1 before swapping "+num1);
+        System.out.println("value of num2 before swapping "+num2);
         int tempStorageVariable;
         tempStorageVariable=num1;
         num1=num2;
         num2=tempStorageVariable;
-        System.out.println("value of num1 after swapping"+num1);
-        System.out.println("value of num2 after swapping"+num2);
+        System.out.println("value of num1 after swapping "+num1);
+        System.out.println("value of num2 after swapping "+num2);
     }
     public static void main(String[] args)
     {
