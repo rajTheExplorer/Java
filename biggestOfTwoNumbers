@@ -1,4 +1,4 @@
-class kiara
+class Main
 {
     public static void greater(int num1,int num2)
     {
