@@ -1,4 +1,4 @@
-class kiara
+class Main
 {
     public static void isPrime(int num)
     {
